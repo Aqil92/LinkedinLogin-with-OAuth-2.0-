@@ -11,4 +11,4 @@ Go to `Auth` by selecting the second tab of created app and get
 
 # Modify the credentials to login successfully
 Replace the credentials in project to login.
-Replace the **client_id**, **client_secret** and **redirect_url** with original credential and run the app.
+Replace the **client_id**, **client_secret** and **redirect_url** in class named `Constants` with original credential and run the app.
