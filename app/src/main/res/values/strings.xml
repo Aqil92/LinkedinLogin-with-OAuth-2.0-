@@ -2,4 +2,7 @@
     <string name="app_name">LinkedIn login V2</string>
     <string name="todo">TODO</string>
     <string name="login_with_linkedin">Login With LinkedIn</string>
+    <string name="str_info">Replace APIKEY, SECRETKEY and REDIRECTURI in class Constants with your app\'s data from
+        LinkedIn
+    </string>
 </resources>

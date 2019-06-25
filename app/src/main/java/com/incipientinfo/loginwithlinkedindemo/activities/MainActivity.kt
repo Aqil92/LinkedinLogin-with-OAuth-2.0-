@@ -1,4 +1,4 @@
-package com.incipientinfo.loginwithlinkedindemo.activity
+package com.incipientinfo.loginwithlinkedindemo.activities
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,15 +8,15 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.incipientinfo.loginwithlinkedin.Linkedin
 import com.incipientinfo.loginwithlinkedindemo.R
+import com.incipientinfo.loginwithlinkedindemo.activities.Constants.Companion.APIKEY
+import com.incipientinfo.loginwithlinkedindemo.activities.Constants.Companion.REDIRECTURI
+import com.incipientinfo.loginwithlinkedindemo.activities.Constants.Companion.SECRETKEY
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
 
 
 class MainActivity : AppCompatActivity(), Linkedin.onLinkedinResponce {
 
-    private val APIKEY = "client_id"
-    private val SECRETKEY = "client_secret"
-    private val REDIRECTURI = "redirect_url"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
